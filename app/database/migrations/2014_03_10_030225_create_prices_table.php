@@ -1,0 +1,37 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreatePricesTable extends Migration {
+
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function up()
+	{
+		Schema::create('prices', function(Blueprint $table)
+		{
+			$table->increments('id');
+            $table->integer('tour_id')->unsigned();
+            $table->foreign('tour_id')->references('id')->on('tours');
+            $table->integer('number_of_people');
+            $table->decimal('price', 6, 2);
+            $table->unique(array('tour_id', 'number_of_people'));
+			$table->timestamps();
+		});
+	}
+
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
+		Schema::drop('prices');
+	}
+
+}

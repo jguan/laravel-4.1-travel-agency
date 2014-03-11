@@ -1,0 +1,195 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	padding-top: 51px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #2D2D2D;
+}
+h1, h2, h3, h4, h5, h6  {
+	font-weight: 300;
+}
+h1{
+	font-family:"Microsoft Yahei",SimHei,sans-serif;
+}
+header {
+	position: relative;
+	width: 100%;
+}
+header.inner {
+	height: 250px;
+	position: relative;
+	width: 100%;
+	background-position:center !important;
+	background: url(../img/background-slide-1.jpg) top center no-repeat #f5f5f5;
+}
+.carousel-inner .item img {
+    margin: 0 auto;
+}
+#main {
+	position:relative;
+	z-index:2;
+	padding-bottom:20px;
+}
+.header-title {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	background-color:#000;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #f5f5f5;
+	padding: 5px 15px;
+	-webkit-box-shadow: -3px 3px 2px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: -3px 3px 2px 0px rgba(0, 0, 0, 0.75);
+}
+.text-error {
+  color: #b94a48;
+}
+.offer-wrap {
+	background:#f2f2f2;
+	position:relative;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	-webkit-transition: box-shadow 0.4s linear;
+	-moz-transition: box-shadow 0.4s linear;
+	-ms-transition: box-shadow 0.4s linear;
+	-o-transition: box-shadow 0.4s linear;
+	transition: box-shadow 0.4s linear;
+	cursor:pointer;
+}
+.offer-wrap:hover {
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+}
+.offer-wrap .label{
+	position:absolute;
+	left:5px;
+	top:5px;
+}
+.offer-wrap .btn-group {
+	position:absolute;
+	right:5px;
+	top:5px;
+	display:none;
+}
+.offer-wrap:hover .btn-group {
+	display:inline-block;
+}
+.offer-wrap .badge {
+	font-weight:400;
+}
+.offer-wrap img {
+	max-width: 100%;
+}
+.padding {
+	padding:5px 10px;
+	box-shadow:inset 0 10px 4px -8px rgba(0,0,0,0.2);
+}
+a.route:hover {
+	text-decoration: none;
+}
+.badge-warning {
+	background-color: #f89406;
+}
+.badge-important {
+background-color: #b94a48;
+}
+#main .offer-wrap {
+	margin-bottom:25px;
+}
+footer {
+	padding-top:20px;
+	background:#2D2D2D;
+    color: #eee;
+    width: 100%;
+}
+#footer-bottom {
+	border-top:1px solid #585858
+}
+#footer-left, #footer-right {
+	font-size:11px;
+	padding:10px 0;
+}
+.footer-phone {
+	padding-top:20px;
+	background:#2D2D2D;
+	margin-top:20px;
+    color: #eee;
+    margin-left: -20px; margin-right: -20px;
+}
+h2.route-name .label, h2.route-name .badge {
+	vertical-align:middle;
+	font-weight:400;
+	font-size: 11.844px;
+}
+.GoogleMaps img {
+	max-width:none !important;
+}
+.location {
+	border-top:1px solid #eee;
+}
+.label-inverse, .badge-inverse {
+    background-color: #333333;
+}
+.form-horizontal .long-label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.form-inline {
+    display: inline;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
