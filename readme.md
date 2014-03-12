@@ -2,6 +2,8 @@
 
 This Travel Agency Site is built with Laravel 4.1 and Bootstrap 3.1.1.
 
+**Live Demo:** <http://travel.jeremyguan.com/>
+
 ## Laravel PHP Framework
 
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
